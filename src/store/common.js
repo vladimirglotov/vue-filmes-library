@@ -1,6 +1,6 @@
-import firebase from 'firebase/app'
+// import firebase from 'firebase/app'
 
-import User from './user_help'
+// import User from './user_help'
 
 export default {
   state: {

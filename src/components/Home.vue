@@ -116,6 +116,7 @@
         .button-list
           button.button.button--round.button-primary(
             type="submit"
+            @click="onSubmit"
             :disabled="submitStatus === 'PENDING'"
           ) Send
 </template>
